@@ -47,3 +47,8 @@ nav a:hover {
 nav a.active {
   background-color: black;
 }
+
+/* This is my own additional code */
+a + a {
+  margin-left: 1em;
+}
