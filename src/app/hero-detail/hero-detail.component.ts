@@ -10,6 +10,8 @@ import { HeroService } from '../hero.service';
   styleUrls: ['./hero-detail.component.css'],
 })
 export class HeroDetailComponent implements OnInit {
+  hero: Hero | undefined;
+
   constructor(
     private route: ActivatedRoute,
     private heroService: HeroService,
@@ -28,6 +30,4 @@ export class HeroDetailComponent implements OnInit {
   goBack(): void {
     this.location.back();
   }
-
-  @Input() hero?: Hero;
 }

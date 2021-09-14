@@ -7,7 +7,6 @@
 }
 .heroes li {
   position: relative;
-  cursor: pointer;
 }
 
 .heroes li:hover {
